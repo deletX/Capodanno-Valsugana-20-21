@@ -1,7 +1,6 @@
 import React from 'react';
 import PageContainer from "./PageContainer";
 import {Divider, Link, Typography} from "@material-ui/core";
-import {ImageOverlay, Map} from "react-leaflet";
 import Breadcrumbs from "@material-ui/core/Breadcrumbs";
 
 const Planimetria = () => {
@@ -28,14 +27,14 @@ const Planimetria = () => {
                     implementeremo e che trovate più dettagliate nella pagina <Link href="/piano-covid"> del piano
                     covid</Link>
                 </Typography>
-                <Map center={[40.748, -74.180]} zoom={14}
-                     style={{width: "100%", height: "75vh"}}>
-                    <ImageOverlay
-                        url="https://stefanogavioli.github.io/assets/img/Planimetria.svg"
-                        attribution="Steppo"
-                        bounds={[[40.712216, -74.22655], [40.773941, -74.12544]]}
-                    />
-                </Map>
+                {/*<Map center={[40.748, -74.180]} zoom={14}*/}
+                {/*     style={{width: "100%", height: "75vh"}}>*/}
+                {/*    <ImageOverlay*/}
+                {/*        url="https://stefanogavioli.github.io/assets/img/Planimetria.svg"*/}
+                {/*        attribution="Steppo"*/}
+                {/*        bounds={[[40.712216, -74.22655], [40.773941, -74.12544]]}*/}
+                {/*    />*/}
+                {/*</Map>*/}
 
             </div>
         </PageContainer>

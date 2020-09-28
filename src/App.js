@@ -17,7 +17,6 @@ function App() {
         <div>
             <Router history={history}>
                 <NavBar/>
-
                 <Switch>
                     <Route exact path="/">
                         <MainPage/>

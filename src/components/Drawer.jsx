@@ -36,7 +36,7 @@ const Drawer = (props) => {
                         <ListItemIcon> <Home/></ListItemIcon>
                         <ListItemText primary="Home"/>
                     </ListItem>
-                    <ListItem button onClick={goTo("/planimetria")}>
+                    <ListItem button disabled onClick={goTo("/planimetria")}>
                         <ListItemIcon> <Map/></ListItemIcon>
                         <ListItemText primary="Planimetria"/>
                     </ListItem>
